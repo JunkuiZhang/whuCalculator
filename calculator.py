@@ -201,6 +201,7 @@ class Cal:
 		print("Your credit in this semester is ", sum0(_totalCredit))
 		print("Your current GPA is ", sum0(_totalGPA)/sum0(_credit))
 
+	
 
 
 while True:
