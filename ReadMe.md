@@ -3,7 +3,7 @@
 
 ### 1. Overview  
   
-This program can get your courses' scores(only works for wuhan university, user name and password are needed), and save them in a data base(MyGrade.db).  
+This program can get your courses' scores(only works for wuhan university, user name and password are needed), and save them in a csv file(MyGrade.csv to do).  
   
 
 ### 2. Description  
