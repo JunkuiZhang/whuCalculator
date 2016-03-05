@@ -96,12 +96,20 @@ class Cal:
 			if info == []:
 				continue
 			title = info[1]
-			_class = info[2]
+			if info[2] == "专业必修":
+				_class = "ZhuanBi"
+			elif info[2] == "专业选修":
+				_class = "ZhuanXuan"
+			else:
+				_class = "QiTa"
 			credit = info[3]
 			name = info[4]
 			type = info[6]
 			year = int(info[7])
-			semester = info[8]
+			if info[8] == "上":
+				semester = "Shang"
+			else:
+				semester = "Xia"
 			score = info[9]
 			w.writerow([title, credit, _class, name, type, year, semester, score])
 			if score == "":
